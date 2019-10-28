@@ -1,158 +1,135 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="row">
-          <div class="col-2 logo-img text-center pr-0">
-            <img src="img/logo.png" alt="logo">
-          </div>
-          <div class="col-8">
-            <h1 class="text-center text-uppercase">La belle empreinte, le guide vers les objets responsables</h1>
-          </div>
-          <!-- Toggle button -->
-          <div class="col-2">
-            <button id="sidebarCollapse" type="button" class="btn bg-white burger"><i class="fa fa-bars mr-2 burger"></i></button>
-          </div>
+        <title>La belle empreinte, le guide vers les objets responsables</title>
+    </head>
+    <body>
+        <div id="topbar">
+            En Novembre GRAND QUIZZ , 25 superbes lots offerts par des marques partenaires responsables
         </div>
-      </div>
-    </header>
-    <div class="vertical-nav" id="sidebar">
-      <ul class="nav flex-column mb-0">
-        <li>
-            <button id="close-btn" type="button" name="button">X</button>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="quiz.html" class="nav-link text-dark text-uppercase text-right w-100">
-                    Quiz et livret
-          </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Présentation
-                </a>
-        </li>
-        <li class="nav-item red d-flex align-items-center">
-          <a href="search.html" class="nav-link text-dark text-uppercase text-right w-100">
-                    Moteur <br>de recherche
-                </a>
-        </li>
-        <li class="nav-item orange d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Label
-                </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Nous suivre
-                </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Blog
-                </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Le coin des pros
-                </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Premiers pas
-                </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="#" class="nav-link text-dark text-uppercase text-right w-100">
-                    Social links
-                </a>
-        </li>
-      </ul>
-    </div>
-    <!-- End vertical navbar -->
-
-    <!-- Page content holder -->
-    <div class="container content-text" id="content">
-      <div class="row pt-3 pl-3">
-        <div class="col-12 col-md-10">
-          <h2 class="text-center title-green px-4">Nous sommes convaincus de l'urgence, mais aussi de la satisfaction qu'il y a à utiliser <strong>des objets qui respectent la terre et les hommes.</strong><br/><strong>Pour cela, voici 2 outils d'information fiables :</strong></h2>
-
-          <p class="text-center">Des articles par types d'objet avec <strong>des conseils fiables et des bonnes adresses pour répondre à vos besoins</strong> tout au long de la vie de l'objet : comprendre les enjeux, neuf ou occasion, réparer, fin...</p>
-
-          <div class="bloc-home search">
-            <h3 class="text-center red"><span class="text-uppercase"><i class="icon fas fa-search red"></i>Le moteur de recherche</span> des objets responsables</h3>
-            <p class="text-center">Je clique sur un type d'objet</p>
-            <div class="d-flex justify-content-around text-center">
-              <div>
-                <i class="fas fa-tshirt"></i>
-                <p>Textile</p>
-              </div>
-              <div>
-                <i class="fas fa-home"></i>
-                <p>Mobilier</p>
-              </div>
-              <div>
-                <i class="fas fa-ring"></i>
-                <p>Bijoux</p>
-              </div>
+        <nav id="headerbar" class="navbar">
+            <div class="row w-100 m-0">
+                <div class="col-5 col-md-3 align-self-center text-right">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/labelleempreinte-green.png" alt="La belle empreinte" width="128">
+                    </a>
+                </div>
+                <div class="col-7 col-md-9 align-self-center">
+                    <h1>
+                        <div class="green">LA BELLE EMPREINTE,</div>
+                        <div class="red">LE GUIDE VERS LES OBJETS RESPONSABLES</div>
+                    </h1>
+                </div>
             </div>
-            <p class="text-italic text-right">Patience, d'autres objets arrivent...</p>
-          </div>
-          <p class="text-center"><strong>Un label pour trouver des objets neufs avec un bel impact </strong>sur l'écologie, les emplois et les utilisateurs.<br/>Un label robuste fondé sur des audits et une méthode solides.<br/>Une étiquette explicative par objet labellisé.</p>
-
-          <div class="bloc-home label">
-            <h3 class="text-center orange"><span class="text-uppercase"><i class="fas fa-tag orange"></i>Le label</span> des objets responsables</h3>
-            <div class="d-flex justify-content-around">
-              <button type="button" name="button">test</button>
-              <button type="button" name="button">test</button>
+        </nav>
+        <div class="container-fluid">
+            <div class="row w-100">
+                <div id="sidebar" class="col-5 col-md-3">
+                    <ul id="sidebar-menu" class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">QUIZZ ET LIVRET</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRESENTATION</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link after-red" href="#">MOTEUR DE RECHERCHE</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link after-orange" href="#">LABEL</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NOUS REJOINDRE</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PREMIERS PAS</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                        <li class="nav-item">
+                            <a class="nav-link green" href="#">LE COIN DES PROS</a>
+                        </li>
+                        <div class="row"><div class="col-9 offset-3"><hr/></div></div>
+                    </ul>
+                    <div class="jumbotron bg-green">
+                        <div class="row">
+                            <div class="col-5 align-self-center text-center">
+                                <i class="fa fa-2x fa-envelope"></i>
+                            </div>
+                            <div class="col-7">
+                                La lettre des emplettes responsables
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 col-md-9 text-center">
+                    <p>Nous sommes convaincus de l’urgence mais aussi de la satisfaction qu’il y a à utiliser des objets qui respectent la terre et les hommes </p>
+                    <p><strong>Voici 2 outils d’information pour simplifier les emplettes responsables : </strong></p>
+                    <div class="jumbotron jumbotron-red">
+                        <h4 class="red"><i class="fa fa-search"></i> LE MOTEUR DE RECHERCHE des objets responsables</h4>
+                        <p><strong>Des conseils fiables et des bonnes adresses</strong> pour vos besoins classés par type d’objet au long de leur vie : comprendre les enjeux, neuf ou occasion, réparer, fin..</p>
+                        <p><strong>Je clique sur un type d'objet</strong></p>
+                        <div class="d-flex justify-content-center red">
+                            <div class="p-3">
+                                <i class="fa fa-2x fa-tshirt"></i>
+                                <div>Textile</div>
+                            </div>
+                            <div class="p-3">
+                                <i class="fa fa-2x fa-chair"></i>
+                                <div>Mobilier</div>
+                            </div>
+                            <div class="p-3">
+                                <i class="fa fa-2x fa-gem"></i>
+                                <div>Bijoux</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-orange">
+                        <h4 class="orange"><i class="fa fa-tag"></i> LE LABEL des objets responsables</h4>
+                        <p>Un label complet pour <strong>trouver des objets neufs avec un bel impact</strong> sur l’écologie, les emplois, les utilisateurs..</p>
+                        <p>Un label fiable fondé sur des audits et une méthode solide</p>
+                        <div class="d-flex justify-content-center mb-3">
+                            <button class="btn btn-orange">Découvrez la méthode</button>
+                        </div>
+                        <p>Un label clair avec <strong>une étiquette explicative par objet.</strong></p>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-orange">Voir les Ethiquettes des objets</button>
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbotron-green">
+                        <h4 class="green">LE QUIZZ ET LE LIVRET des emplettes responsables</h4>
+                        <p>En novembre, nous vous proposons legrand quizz des emplettes responsables :</p>
+                        <p>5 questions et <strong>25 superbes lots offerts</strong> par des marques partenaires responsables</p>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-green">Accéder à la page du jeu et du livret</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <p class="text-center mb-0">En novembre, <strong>nous vous proposons le grand quizz des emplettes reponsables :</strong></p>
-          <p class="text-center mb-0">- 5 questions</p>
-          <p class="text-center mb-0">- <strong>25 superbes lots offerts</strong> par des marques partenaires responsables</p>
-          <p class="text-center mb-0">- 1 livret de 36 pages sur les emplettes responsables à télécharger</p>
-
-          <div class="bloc-home quiz text-center mt-4">
-            <h3 class="text-center green"><span class="text-uppercase">
-              Le quizz et le livret</span> des emplettes responsables</h3>
-            <button class="btn-quiz mt-4" type="button" name="button">Accéder à la page du jeu et du livret</button>
-            <div class="round"></div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Footer -->
-    <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        Ines Mokaddem
-      </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
