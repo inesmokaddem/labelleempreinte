@@ -1,0 +1,266 @@
+/*
+  Titres
+*/
+h1 {
+
+}
+h2.title-green {
+  font-size: 1.4rem;
+  color: #379967;
+}
+h3 {
+  font-size: 1.4rem;
+}
+/*
+  Global class
+*/
+.text-italic {
+  font-style: italic;
+}
+.round {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  bottom: 2rem;
+  right: 15rem;
+}
+/*
+  Colors
+*/
+.green {
+  color: #379967;
+}
+.orange {
+  color: #F6A029;
+}
+.red {
+  color: #DE635C;
+}
+/*
+  buttons
+*/
+.btn-quiz {
+  background-color: #379967;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem 2.5rem;
+  position: relative;
+}
+/*
+  header
+*/
+.header {
+  height: 15vh;
+}
+.header h1 {
+  font-size: 2rem;
+  color: #379967;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-img img {
+  width: 50%;
+  padding: 10px
+}
+/*
+  Home
+*/
+.bloc-home {
+  border-radius: 5rem;
+  padding: 17px;
+}
+.search {
+  border: 1px solid #DE635C;
+}
+.label {
+  border: 1px solid #F6A029;
+}
+.quiz {
+  border: 1px solid #379967;
+}
+.bloc-home.search .icon, .bloc-home.label .icon {
+  font-size: 1.3rem;
+  padding-right: 10px;
+}
+
+.vertical-nav {
+  min-width: 12rem;
+  width: 12rem;
+  height: 100vh;
+  position: fixed;
+  /* top: 10rem; */
+  left: 0;
+}
+.content-text {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  /* transition: all 0.4s; */
+}
+.burger {
+  border: none;
+  float: right;
+  outline: none;
+  cursor: pointer;
+}
+#close-btn {
+  display: none;
+}
+.burger:focus {
+  box-shadow: none;
+}
+.nav-item {
+  font-size: 1rem;
+}
+.nav-item::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #379967;
+}
+.nav-item.red::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #DE635C;
+}
+.nav-item.orange::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #F6A029;
+}
+.nav-link {
+  padding: 0.6rem 1.4rem;
+}
+.nav {
+  height: 100vh;
+}
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+  top: 0;
+}
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+#sidebarCollapse {
+  display: none;
+}
+#sidebarCollapse .burger {
+  color: #379967;
+  font-size: 2rem;
+}
+.close-btn {
+  display: none;
+}
+/* Footer */
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #DE635C;
+}
+/*
+  Responsive
+*/
+@media (max-width: 768px) {
+  .header {
+    height: 10vh;
+  }
+  #sidebarCollapse {
+    display: block;
+  }
+  #sidebar {
+    margin-left: -17rem;
+    display: none;
+  }
+  #sidebar.active {
+    margin-left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+  .nav {
+    padding-top: 20px;
+    text-align: center !important;
+    background-color: #fffef2 !important;
+  }
+  .nav-link {
+    text-align: center !important;
+    text-transform: initial !important;
+    padding: 1.8rem 0;
+    border-bottom: 1px solid #379967;
+    font-size: 1.5rem;
+  }
+  .nav-item::after, .nav-item.red::after, .nav-item.orange::after {
+    content: none;
+  }
+  #close-btn {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #379967;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  .header h1 {
+    font-size: 1.4rem;
+    text-align: left !important;
+  }
+  .logo-img img {
+    width: 85%;
+  }
+}
+@media (min-width: 576px){
+  .container {
+    max-width: 100%;
+  }
+}
