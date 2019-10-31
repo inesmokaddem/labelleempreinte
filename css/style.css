@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -33,6 +32,16 @@ body{
     border: 2px solid #399967;
     padding: 32px;
 }
+.light-text {
+  color: #808080b8;
+  font-size: 12px;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .jumbotron-green {
+    padding: 0 32px;
+  }
+}
 .jumbotron-red{
     background-color: #fff;
     border: 2px solid #e3815f;
@@ -51,7 +60,9 @@ body{
     background-color: #faa224;
     color: #fff;
 }
-
+.btn-ethiquette {
+  margin: 0 auto;
+}
 h1{
     font-weight: bold;
     font-size: 32px;
@@ -168,7 +179,7 @@ h1{
 /**
 * Footer
 **/
-footer{
+.footer{
     background-color: #f5e6da
 }
 footer .jumbotron{
@@ -238,3 +249,23 @@ footer .jumbotron{
     width: auto;
     min-width: auto;
 }
+/*
+  Illustrations
+ */
+ .illustration-icon {
+   width: 15%;
+ }
+ .illustration-icon.paris {
+   width: 50%;
+ }
+ .separation-illustration {
+   max-width: 10%;
+ }
+ @media (max-width: 767px) {
+   .illustration {
+     max-width: 50%;
+   }
+ }
+ .team-photo {
+   width: 50%;
+ }

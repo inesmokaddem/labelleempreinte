@@ -1,4 +1,5 @@
-SetEnv INDEX_URL http://localhost/ines/labelleempreinte
-
-RewriteEngine On
-RewriteRule ^([a-zA-Z0-9\-]+)$ index.php?page=$1
+SetEnv INDEX_URL http://localhost:8888/belle-empreinte/
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^([a-zA-Z0-9\-]+)$ index.php?page=$1
+</IfModule>

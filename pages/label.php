@@ -9,5 +9,9 @@
 	  	Cette page est encore en construction.
 	  	Merci de revenir très prochainement !
 	</div>
-	
+	<div class="col-12 col-md-6 btn-ethiquette">
+		<a href="<?php echo getenv('INDEX_URL') ?>/documents/ethiquette.pdf" target="blank" class="btn btn-block btn-orange">
+			Ethiquette d'objet labellisé
+		</a>
+	</div>
 </main>

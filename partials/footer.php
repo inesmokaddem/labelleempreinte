@@ -1,30 +1,33 @@
-<footer class="container pb-3 mb-3">
-    <div class="row mt-5">
-        <div class="col-md-3 text-center">
-            <a href="#">
-                <img src="img/labelleempreinte-green.png" alt="La belle empreinte" width="128">
-            </a>
-        </div>
-        <div class="col-md-9 align-self-center text-center">
-            Un site réalisé par une belle équipe indépendante basée à Paris. Merci beaucoup à tous ceux qui ont aidé à la réalisation de ces outils qui n’existeraient pas sans eux 
-        </div>
+<footer class="mt-5">
+  <img src="img/illustrations/belleempreinte.png" alt="bannière" class="img-fluid">
+  <div class="footer container pb-3 mb-3">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <a href="#">
+          <img src="img/labelleempreinte-green.png" alt="La belle empreinte" width="128">
+        </a>
+      </div>
+      <div class="col-md-9 align-self-center text-center">
+        Un site réalisé par une belle équipe indépendante basée à Paris. Merci beaucoup à tous ceux qui ont aidé à la réalisation de ces outils qui n’existeraient pas sans eux
+      </div>
     </div>
     <div class="row mt-3">
-        <div class="col-md-5 align-self-center">
-            <ul>
-                <li>
-                    <strong>CONTACT :</strong><br/>
-                    delphine@labelleempreinte.fr
-                </li>
-            </ul>
-        </div>
-        <div class="col-md-7 text-center align-self-center">
-            <button class="btn btn-green" data-toggle="modal" data-target="#newsletterModal">
-                <i class="fa fa-envelope"></i>
-                La lettre des emplettes responsables
-            </button>
-        </div>
+      <div class="col-md-5 align-self-center">
+        <ul>
+          <li>
+            <strong>CONTACT :</strong><br/>
+            delphine@labelleempreinte.fr
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-7 text-center align-self-center">
+        <button class="btn btn-green" data-toggle="modal" data-target="#newsletterModal">
+          <i class="fa fa-envelope"></i>
+          La lettre des emplettes responsables
+        </button>
+      </div>
     </div>
+  </div>
 </footer>
 
 <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
