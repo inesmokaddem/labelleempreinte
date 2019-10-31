@@ -95,10 +95,10 @@
           <img src="img/brands/lamazuna.jpg" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/optiquedurable.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/Panafrica-logo.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
-          <img src="img/brands/pomponcouleur.eps" alt="logo marque" class="img-fluid my-2 logo-partner"/>
+          <img src="img/brands/pomponcouleur.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/Reneerecycle.jpg" alt="logo marque" class="img-fluid my-2 logo-partner"/>
-          <img src="img/brands/Slipfrançais.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
-          <img src="img/brands/Tassiopée.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
+          <img src="img/brands/Slipfrancais.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
+          <img src="img/brands/Tassiopee.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/Thetrustsociety.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/TIPTOE.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
           <img src="img/brands/Trendethics.png" alt="logo marque" class="img-fluid my-2 logo-partner"/>
