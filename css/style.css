@@ -269,3 +269,14 @@ footer .jumbotron{
  .team-photo {
    width: 50%;
  }
+ .img-besoin img {
+   width: 40%;
+ }
+ @media (max-width: 767px) {
+   .besoin {
+     display: block !important;
+   }
+   .img-besoin img {
+     width: 20%;
+   }
+ }

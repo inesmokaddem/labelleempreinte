@@ -45,6 +45,39 @@
                   <div>Bijoux</div>
               </div>
           </div>
+          <p><strong>Je clique sur un besoin</strong></p>
+          <div class="besoin d-flex justify-content-center">
+              <div class="p-3">
+                <div class="img-besoin">
+                  <img src="img/comprendre.png" alt="image comprendre" class="img-fluid">
+                </div>
+                <div>Comprendre les enjeux</div>
+              </div>
+              <div class="p-3">
+                <div class="img-besoin">
+                  <img src="img/marques.png" alt="image marques" class="img-fluid">
+                </div>
+                <div>Marques responsables</div>
+              </div>
+              <div class="p-3">
+                <div class="img-besoin">
+                  <img src="img/occasion.png" alt="image occasion" class="img-fluid">
+                </div>
+                <div>Occasion, location, DIY</div>
+              </div>
+              <div class="p-3">
+                <div class="img-besoin">
+                  <img src="img/reparation.png" alt="image reparation" class="img-fluid">
+                </div>
+                <div>Réparation</div>
+              </div>
+              <div class="p-3">
+                <div class="img-besoin">
+                  <img src="img/utilisation.png" alt="image utilisation" class="img-fluid">
+                </div>
+                <div>Fin d'utilisation</div>
+              </div>
+          </div>
         </div>
         <div class="col-md-2">
           <img src="img/illustrations/Cmeubles.png" alt="illustration" class="img-fluid illustration">
