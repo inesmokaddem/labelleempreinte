@@ -4,6 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/**
+* Typography
+**/
 .green{
     color: #399967 !important;
 }
@@ -21,6 +24,9 @@ body{
 }
 .bg-orange{
     background-color: #faa224 !important;
+}
+.bg-rose{
+    background-color: #f5e6da !important;
 }
 .jumbotron-green{
     background-color: #fff;
@@ -46,38 +52,96 @@ body{
     color: #fff;
 }
 
+/**
+* Topbar
+**/
 #topbar{
     background-color: #399967;
     color: #fff;
     text-align: center;
 }
 
-#headerbar {
-}
-#headerbar h1{
+/**
+* Header
+**/
+#header h1{
     font-weight: bold;
     font-size: 32px;
     text-align: center;
+    margin: 28px 0;
+}
+@media (max-width: 767.98px) {
+    #header h1{
+        font-size: 14px;
+        margin: 0;
+    }
+}
+#header .logo{
+    width: 96px;
+}
+#header .three-dots .dot{
+    width:10px;
+    height:10px;
+    background-color: #399967;
+    border-radius: 10px;
+    display: block;
+    margin: 4px 0;
+}
+#menuModal {
+    padding-right: 0 !important;
+}
+#menuModal .modal-dialog {
+    min-width: 100%;
+    margin: 0;
+}
+#menuModal .modal-content {
+    min-height: 100vh;
+}
+#menuModal .logo{
+    width: 96px;
+}
+#menuModal .navbar-brand{
+    display: none
+}
+#menuModal #sidebar li{
+    text-align: center;
+}
+#menuModal #sidebar li a{
+    justify-content: center;
+}
+#menuModal #sidebar hr{
+    display: none
+}
+#menuModal .row-newsletter .offset-3.col-9,
+#menuModal .row-social .offset-3.col-9{
+    margin-left: 0;
+    max-width: 100%;
+    flex: 0 0 100%;
 }
 
+/**
+* Sidebar
+**/
 #sidebar li{
     text-align: right;
-    
 }
 #sidebar li a{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
+}
+#sidebar li a.active{
+    font-weight: bold;
 }
 #sidebar li a:after{
     content:"";
-    width:18px;
-    height:18px;
+    width:14px;
+    height:14px;
     background-color: #399967;
     display: inline-block;
-    border-radius: 18px;
+    border-radius: 14px;
     margin-left: 10px;
 }
 #sidebar li a.after-red:after{
@@ -87,7 +151,63 @@ body{
     background-color: #faa224;
 }
 #sidebar .jumbotron{
-    background-color: #399967;
     color: #fff;
-    padding: 16px;
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
+
+
+/**
+* Footer
+**/
+footer{
+    background-color: #f5e6da
+}
+footer .jumbotron{
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
+/**
+* Page: Quizz
+**/
+#page-quizz .circle{
+    margin: 0 auto;
+    border-radius: 180px;
+    width: 180px;
+    height: 180px;
+    background-color: #f5e6da;
+    padding: 15px;
+}
+#page-quizz .logo-partner{
+    max-width: 120px;
+}
+#page-quizz .bg-rose .list li{
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+#page-quizz .fieldset{
+    border: 1px solid #000;
+    padding: 20px 15px;
+    position: relative;
+    height: 100%;
+}
+#page-quizz .fieldset .legend{
+    position: absolute;
+    top: -12px;
+    left: 0;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+
+}
+#page-quizz .fieldset .legend > span{
+    padding: 0 5px;
+    background-color: #fff;
+    display: inline-block;
+}
+#page-quizz .fieldset .legend.two-lines{
+    top: -24px;
 }
