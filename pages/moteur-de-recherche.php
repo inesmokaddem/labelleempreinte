@@ -1,5 +1,3 @@
-
-
 <main id="page-moteur-de-recherche" class="text-center">
 	<h1 class="bg-red text-white">
 		<i class="fa fa-search"></i>
