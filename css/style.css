@@ -52,6 +52,13 @@ body{
     color: #fff;
 }
 
+h1{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin: 28px 0;
+}
+
 /**
 * Topbar
 **/
@@ -210,4 +217,24 @@ footer .jumbotron{
 }
 #page-quizz .fieldset .legend.two-lines{
     top: -24px;
+}
+
+/**
+* Page: Moteur de recherche
+**/
+#page-moteur-de-recherche h1{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin: 28px 0;
+    padding: 5px;
+}
+#page-moteur-de-recherche #selectObjects + button {
+    width: auto;
+    background-color: #f5e6da !important;
+    color: #e3815f !important;
+}
+#page-moteur-de-recherche #selectObjects + button + .dropdown-menu {
+    width: auto;
+    min-width: auto;
 }

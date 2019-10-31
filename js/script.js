@@ -1,11 +1,12 @@
-$(function() {
-  $('#sidebarCollapse').on('click', function() {
-    $('#sidebar, #content').addClass('active');
-    $('.vertical-nav').show();
-    /* Add disablescroll when sidebar open */
-  });
-  $('#close-btn').on('click', function() {
-    $('#sidebar, #content').removeClass('active');
-    $('.vertical-nav').hide();
-  });
-});
+$(document).ready(function(){
+	$('#selectObjects').selectpicker();
+	$('#selectObjects').change(function(){
+		setBlockTitleFromSelect()
+	});
+	setBlockTitleFromSelect()
+})
+
+function setBlockTitleFromSelect(){
+	console.log($('#selectObjects option:selected').data('title'))
+	$('#jumbo-title').html($('#selectObjects option:selected').data('title'))
+}
